@@ -1,0 +1,2 @@
+const int i = 0;
+__PRAGMA_REDEFINE_EXTNAME()
