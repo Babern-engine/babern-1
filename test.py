@@ -1,1 +1,3 @@
-print(UserWarning("Dont include this teston production"))
+print(UserWarning("Dont include this test on production"))
+import unittest
+unittest.main()
