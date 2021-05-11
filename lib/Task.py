@@ -6,9 +6,6 @@ class task:
 		self.completed_task = completed_task
 		self.ignored_task = ignored_task
 
-	def get_name(self):
-		return self.name
-
 	def get_task(self):
 		return self.task
 

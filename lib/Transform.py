@@ -24,3 +24,5 @@ class Transform(object):
 	def change_dimension(self, sx, sy):
 		self.scale_x = sx + self.scale_x
 		self.scale_y = sy + self.scale_y
+
+def transformtype(): ...
