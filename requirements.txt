@@ -2,8 +2,6 @@ numba
 numpy
 Pillow
 pipenv
-pygame
-pyglet
 PyOpenGL
 PyOpenGL-accelerate
-pywebview
+glfw

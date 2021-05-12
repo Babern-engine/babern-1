@@ -1,5 +1,5 @@
-print(UserWarning("Dont include this test on production"))
-import unittest
-import inspect
-print(inspect.getfile(unittest))
-unittest.main()
+import time
+tg = time.perf_counter()
+print("bloaded")
+fg = time.perf_counter()
+print(fg, "\n", tg)
