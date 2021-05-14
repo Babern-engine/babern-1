@@ -1,5 +1,7 @@
-#include <stdio.h>
-_LIBCPP_HAS_NO_ALIGNED_ALLOCATION
+enum {
+	MIN_STACK = 0,
+	MAX_STACK = 4000
+};
 #ifndef MEMORY
 #define MEMORY
 #endif

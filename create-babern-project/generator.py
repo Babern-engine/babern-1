@@ -1,6 +1,7 @@
-import os, sys, platform, pathlib
-f = open("demofile2.txt", "a")
-f.write("Now the file has more content!")
+import os, sys, pathlib
+
+foldername = input("Project Name: ")
+p = pathlib.Path(foldername).mkdir(parents=True, exist_ok=True)
+f = open(f"{foldername}/config.py", "w")
+f.write(f"PROJECT_NAME='{foldername}'\nNETWORK='socket'\nID={hash(foldername)}\nPLUGINS=[]\nDB='json'\nLOG=False\nENV='dev'")
 f.close()
-p = pathlib.Path("temp/").mkdir(parents=True, exist_ok=True)
-f = open("temp/demofile2.txt", "a")

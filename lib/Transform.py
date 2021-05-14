@@ -1,5 +1,6 @@
 class Transform(object):
 	def __init__(self,x, y, width, height, scale_x, scale_y):
+		super()__init__(self)
 		self.x = x
 		self.y = y
 		self.width = width
