@@ -1,3 +1,5 @@
+import time
+tic = time.perf_counter()
 import OpenGL
 OpenGL.ERROR_CHECKING = False
 from OpenGL.GL import *
@@ -27,5 +29,5 @@ def main():
 		glfw.poll_events()
 	glfw.terminate()
 
-if __name__ == "__main__":
-    main()
+toc = time.perf_counter()
+print(tic,'\n',toc)

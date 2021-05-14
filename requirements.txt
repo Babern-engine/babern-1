@@ -1,7 +1,1 @@
-numba
-numpy
-Pillow
-pipenv
-PyOpenGL
-PyOpenGL-accelerate
-glfw
+playsound

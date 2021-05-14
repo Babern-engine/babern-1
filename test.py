@@ -1,5 +1,11 @@
 import time
-tg = time.perf_counter()
-print("bloaded")
-fg = time.perf_counter()
-print(fg, "\n", tg)
+tic = time.perf_counter()
+import pyglet
+
+class window(pyglet.window.Window):
+	def __init__(self, *args, **kwargs):
+		super().__init__(*args, **kwargs)
+
+
+toc = time.perf_counter()
+print(tic,'\n',toc)
