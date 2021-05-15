@@ -1,6 +1,6 @@
 class Transform(object):
 	def __init__(self,x, y, width, height, scale_x, scale_y):
-		super()__init__(self)
+		super().__init__(self)
 		self.x = x
 		self.y = y
 		self.width = width
@@ -21,9 +21,5 @@ class Transform(object):
 	def change_dimension(self, width, height):
 		self.width = width or self.width
 		self.height = height or self.height
-
-	def change_dimension(self, sx, sy):
-		self.scale_x = sx + self.scale_x
-		self.scale_y = sy + self.scale_y
 
 def transformtype(): ...

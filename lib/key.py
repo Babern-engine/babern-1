@@ -1,5 +1,5 @@
 class Keyboard(object):
-	def __init__(self, name:str, key:str, method:function):
+	def __init__(self, name, key, method):
 		self.name = name
 		self.key = key
 		self.method = method
