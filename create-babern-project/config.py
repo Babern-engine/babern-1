@@ -1,0 +1,7 @@
+PROJECT_NAME='.'
+NETWORK='socket'
+ID=6411523981601667892
+PLUGINS=[]
+DB='json'
+LOG=False
+ENV='dev'
