@@ -1,7 +1,7 @@
 # Babern Engine
 
 <a href="https://babern.org"><p align="center">
-<img height=100 src="./babern.png"/>
+<img height=100 src="https://github.com/Ardustri/babern/blob/master/babern.png"/>
 
 </p></a>
 <p align="center">

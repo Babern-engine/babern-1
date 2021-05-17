@@ -6,14 +6,12 @@ class task:
 		self.completed_task = completed_task
 		self.ignored_task = ignored_task
 
-	def get_task(self):
-		return self.task
+	def complete(self, task_list, index):
+		del task_list[index]
 
-	def get_current_task(self):
-		return self.current_task
+	def empty(self, emptied_list):
+		if emptied_list == "self.current_task": self.completed_task = [];return
+		if emptied_list == "self.completed_task": self.completed_task = [];return
+		if emptied_list == "self.ignored_task": self.completed_task = [];return
+		return "invalid task list type"
 
-	def get_completed_task(self):
-		return self.completed_task
-
-	def get_ignored_task(self):
-		return self.ignored_task
